@@ -1,0 +1,52 @@
+body {
+    background-color: #121212;
+    color: #FFFFFF;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #1DB954; /* Spotify green */
+}
+
+button {
+    background-color: #1DB954; /* Spotify green */
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1ed760; /* Lighter green on hover */
+}
+
+.sidebar .sidebar-content {
+    background-color: #282828; /* Dark sidebar */
+}
+
+.stTextInput, .stTextArea {
+    background-color: #2A2A2A; /* Dark input fields */
+    color: #FFFFFF;
+    border: 1px solid #1DB954; /* Green border */
+}
+
+.stTextInput:focus, .stTextArea:focus {
+    border-color: #1ed760; /* Lighter green on focus */
+}
+
+.stButton {
+    transition: background-color 0.3s;
+}
+
+.stButton:hover {
+    background-color: #1ed760; /* Lighter green on hover */
+}
+
+.stProgress {
+    background-color: #1DB954; /* Spotify green */
+}
+
+.stMarkdown {
+    color: #FFFFFF; /* White text for markdown */
+}
